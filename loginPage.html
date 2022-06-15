@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <style>
+        body {
+            /* background-color: rgb(110, 73, 73);
+        margin: 0px;
+        padding: 0px; */
+
+        }
+
+        body {
+            background-color: #f2ecec;
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        h2 {
+            color: rgb(44, 10, 10);
+            text-align: center;
+            margin-top: 5%;
+        }
+
+        .maincontainer {
+            font-weight: bold;
+            color: rgb(10, 10, 10);
+            margin-left: 50px;
+            margin-top: 50px;
+            margin-right: 10%;
+        }
+
+        .newContainer {
+            margin-top: 20px;
+            margin-left: 10px;
+            margin-bottom: 15px;
+            padding: 30px;
+        }
+
+        fieldset {
+            width: 93%;
+            height: auto;
+            border-radius: 10px;
+            border-style: double;
+        }
+    </style>
+</head>
+
+<body>
+    
+
+   
+    <h2>Please fill out this registration form to avail our Services</h2>
+    <div class="maincontainer" id="mainCon">
+        <form>
+            <fieldset>
+                <legend>Registration Form</legend>
+                <div class="newContainer">
+
+                    <div class="container" id="container1" >
+                        First Name: <input type="text" name="firstName">
+                    </div><br>
+                    <div class="container" id="container2">
+                        Last Name: <input type="text" name="lastName">
+                    </div><br>
+                    <div class="container" id="container3">
+                        Email: <input type="email" name="emailAddress" required>
+                    </div><br>
+                    <div class="container" id="container4">
+                        Phone: <input type="text" name="phoneNumber">
+                    </div><br>
+                    <div class="container" id="container5">
+                        Emp Id: <input type="text" name="empid">
+                    </div>
+                    <div class="container" id="container6">
+                        <input id="submitted" type="hidden" name="submitted" value="submitted" /><br>
+                        <input type="submit" value="Submit">
+                    </div>
+                </div>
+            </fieldset>
+
+
+
+
+
+        </form>
+       
+    </div>
+    <script type="text/javascript" src="//cdn.evgnet.com/beacon/atcsmcp/yashkoolwal/scripts/evergage.min.js"></script>
+</body>
+
+</html>
