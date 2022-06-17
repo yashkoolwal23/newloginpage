@@ -1,1 +1,1 @@
-<?php include 'loginPage.html';?>
+<?php include 'isprac.html';?>
